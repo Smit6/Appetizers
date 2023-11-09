@@ -11,6 +11,17 @@
 		CB25CB5D2AFC034200F985D0 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB5C2AFC034200F985D0 /* AppetizerTabView.swift */; };
 		CB25CB5F2AFC034500F985D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB25CB5E2AFC034500F985D0 /* Assets.xcassets */; };
 		CB25CB622AFC034500F985D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB25CB612AFC034500F985D0 /* Preview Assets.xcassets */; };
+		CB25CB692AFC041D00F985D0 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB682AFC041D00F985D0 /* AppetizerListView.swift */; };
+		CB25CB6B2AFC043100F985D0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB6A2AFC043100F985D0 /* AccountView.swift */; };
+		CB25CB6D2AFC044E00F985D0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB6C2AFC044E00F985D0 /* OrderView.swift */; };
+		CB25CB6F2AFC10B700F985D0 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB6E2AFC10B700F985D0 /* Appetizer.swift */; };
+		CB25CB712AFC19F200F985D0 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB702AFC19F100F985D0 /* AppetizerListCell.swift */; };
+		CB25CB732AFC1B2F00F985D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB722AFC1B2F00F985D0 /* NetworkManager.swift */; };
+		CB25CB752AFC1C4B00F985D0 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB742AFC1C4B00F985D0 /* APError.swift */; };
+		CB25CB772AFC242C00F985D0 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB762AFC242C00F985D0 /* AppetizerListViewModel.swift */; };
+		CB25CB792AFC272900F985D0 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB782AFC272900F985D0 /* Alert.swift */; };
+		CB25CB7B2AFC2C9A00F985D0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB7A2AFC2C9A00F985D0 /* LoadingView.swift */; };
+		CB25CB7D2AFC2D6A00F985D0 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB7C2AFC2D6A00F985D0 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		CB25CB5C2AFC034200F985D0 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		CB25CB5E2AFC034500F985D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB25CB612AFC034500F985D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB25CB682AFC041D00F985D0 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		CB25CB6A2AFC043100F985D0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		CB25CB6C2AFC044E00F985D0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		CB25CB6E2AFC10B700F985D0 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		CB25CB702AFC19F100F985D0 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		CB25CB722AFC1B2F00F985D0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CB25CB742AFC1C4B00F985D0 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		CB25CB762AFC242C00F985D0 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		CB25CB782AFC272900F985D0 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		CB25CB7A2AFC2C9A00F985D0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CB25CB7C2AFC2D6A00F985D0 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,17 @@
 				CB25CB5C2AFC034200F985D0 /* AppetizerTabView.swift */,
 				CB25CB5E2AFC034500F985D0 /* Assets.xcassets */,
 				CB25CB602AFC034500F985D0 /* Preview Content */,
+				CB25CB682AFC041D00F985D0 /* AppetizerListView.swift */,
+				CB25CB6A2AFC043100F985D0 /* AccountView.swift */,
+				CB25CB6C2AFC044E00F985D0 /* OrderView.swift */,
+				CB25CB6E2AFC10B700F985D0 /* Appetizer.swift */,
+				CB25CB702AFC19F100F985D0 /* AppetizerListCell.swift */,
+				CB25CB722AFC1B2F00F985D0 /* NetworkManager.swift */,
+				CB25CB742AFC1C4B00F985D0 /* APError.swift */,
+				CB25CB762AFC242C00F985D0 /* AppetizerListViewModel.swift */,
+				CB25CB782AFC272900F985D0 /* Alert.swift */,
+				CB25CB7A2AFC2C9A00F985D0 /* LoadingView.swift */,
+				CB25CB7C2AFC2D6A00F985D0 /* Color+Ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -137,8 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB25CB6F2AFC10B700F985D0 /* Appetizer.swift in Sources */,
+				CB25CB752AFC1C4B00F985D0 /* APError.swift in Sources */,
+				CB25CB712AFC19F200F985D0 /* AppetizerListCell.swift in Sources */,
+				CB25CB772AFC242C00F985D0 /* AppetizerListViewModel.swift in Sources */,
+				CB25CB7D2AFC2D6A00F985D0 /* Color+Ext.swift in Sources */,
+				CB25CB6B2AFC043100F985D0 /* AccountView.swift in Sources */,
+				CB25CB7B2AFC2C9A00F985D0 /* LoadingView.swift in Sources */,
 				CB25CB5D2AFC034200F985D0 /* AppetizerTabView.swift in Sources */,
+				CB25CB732AFC1B2F00F985D0 /* NetworkManager.swift in Sources */,
 				CB25CB5B2AFC034200F985D0 /* AppetizersApp.swift in Sources */,
+				CB25CB792AFC272900F985D0 /* Alert.swift in Sources */,
+				CB25CB692AFC041D00F985D0 /* AppetizerListView.swift in Sources */,
+				CB25CB6D2AFC044E00F985D0 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
