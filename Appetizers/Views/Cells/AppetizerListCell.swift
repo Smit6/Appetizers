@@ -11,8 +11,7 @@ struct AppetizerListCell: View {
     let appetizer: Appetizer
     var body: some View {
         HStack {
-            Image("asian-flank-steak")
-                .resizable()
+            AppetizerRemoteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 90, alignment: .center)
                 .cornerRadius(8)
@@ -25,7 +24,7 @@ struct AppetizerListCell: View {
                     .foregroundColor(.secondary)
                     .fontWeight(.semibold)
             }
-            .padding(.leading)
+            .padding(.leading)            
         }
     }
 }
