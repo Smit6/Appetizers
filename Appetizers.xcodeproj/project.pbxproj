@@ -22,6 +22,7 @@
 		CB25CB792AFC272900F985D0 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB782AFC272900F985D0 /* Alert.swift */; };
 		CB25CB7B2AFC2C9A00F985D0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB7A2AFC2C9A00F985D0 /* LoadingView.swift */; };
 		CB25CB7D2AFC2D6A00F985D0 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25CB7C2AFC2D6A00F985D0 /* Color+Ext.swift */; };
+		CB9E896A2B01AAF200A3A458 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E89692B01AAF200A3A458 /* Date+Ext.swift */; };
 		CBAC140F2B0014DA00DDB73F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC140E2B0014DA00DDB73F /* RemoteImage.swift */; };
 		CBAC141E2B001D7400DDB73F /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC141D2B001D7400DDB73F /* AppetizerDetailView.swift */; };
 		CBAC14212B002C6600DDB73F /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC14202B002C6600DDB73F /* APButton.swift */; };
@@ -51,6 +52,7 @@
 		CB25CB782AFC272900F985D0 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CB25CB7A2AFC2C9A00F985D0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		CB25CB7C2AFC2D6A00F985D0 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		CB9E89692B01AAF200A3A458 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		CBAC140E2B0014DA00DDB73F /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		CBAC141D2B001D7400DDB73F /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		CBAC14202B002C6600DDB73F /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				CB25CB7C2AFC2D6A00F985D0 /* Color+Ext.swift */,
 				CBAC14262B00369A00DDB73F /* String+Ext.swift */,
+				CB9E89692B01AAF200A3A458 /* Date+Ext.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				CB25CB6F2AFC10B700F985D0 /* Appetizer.swift in Sources */,
 				CB25CB752AFC1C4B00F985D0 /* APError.swift in Sources */,
 				CBAC14232B002D7B00DDB73F /* XDismissButton.swift in Sources */,
+				CB9E896A2B01AAF200A3A458 /* Date+Ext.swift in Sources */,
 				CB25CB712AFC19F200F985D0 /* AppetizerListCell.swift in Sources */,
 				CBAC142E2B00774C00DDB73F /* Order.swift in Sources */,
 				CBAC14252B0034B000DDB73F /* AccountViewModel.swift in Sources */,
@@ -483,7 +487,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,7 +519,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
